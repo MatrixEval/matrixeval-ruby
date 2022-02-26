@@ -1,6 +1,6 @@
-version: 0.3
-project_name: REPLACE_ME
+version: 0.4
 target: ruby
+project_name: REPLACE_ME
 parallel_workers: number_of_processors
 # commands:
 #   - ps
