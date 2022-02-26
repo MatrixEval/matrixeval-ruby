@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.4.0] - 2022-02-27
+
+- Refactor this gem as a plugin of matrixeval
+
 ## [0.3.1] - 2022-02-21
 
 - Add `.matrixeval/docker-compose` to `.gitignore`

@@ -1,6 +1,6 @@
 # matrixeval-ruby
 
-Test your ruby code against multiple versions of dependencies like Ruby, Rails, Env ...
+It's a plugin of [matrixeval](https://github.com/MatrixEval/matrixeval-ruby) for Ruby. Test your ruby code against multiple versions of dependencies like Ruby, Rails, Env ...
 
 ![](https://raw.githubusercontent.com/MatrixEval/assets/main/screenshots/summary.png)
 
@@ -31,7 +31,7 @@ Or install it yourself as:
 Initialize
 
 ```bash
-matrixeval init
+matrixeval init -t ruby
 ```
 
 Customize `matrixeval.yml` file and run commands like:
@@ -52,9 +52,9 @@ Run `matrixeval --help` for more details
 Here is the configuration file `matrixeval.yml` which will auto created by `matrixeval init`
 
 ```yaml
-version: 0.3
-project_name: REPLACE_ME
+version: 0.4
 target: ruby
+project_name: REPLACE_ME
 parallel_workers: number_of_processors
 # commands:
 #   - ps
